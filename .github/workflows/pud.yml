@@ -26,7 +26,7 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: K1005123/mytest2
+        repository: weihan62/mytest2
         dockerfile: Dockerfile
         always_pull: true
         tags: latest
